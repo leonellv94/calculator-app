@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 500px;
+    height: max-content;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.theme_box{
+    align-self: flex-end;
+    margin-bottom: 4px;
+}
+.main_theme {
+    display: flex;
+    gap: 20px;
+}
+.theme_numbers_ball{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.ball-space {
+    display: flex;
+    width: 70px;
+    height: 25px;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.ball{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.theme_numbers{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.display__result_table {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin: 15px 0px;
+    text-align: right;
+    font-size: xxx-large;
+    padding: 30px;
+    overflow: hidden;
+}
+.main__table {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.table__btns{
+    border-radius: 10px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    border: none;
+}
+
+.table__btns_2{
+    border: none;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.reset_grid {
+    grid-column: 1 / 3;
+}
+.equal_grid{
+    grid-column: 3 / 5;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

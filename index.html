@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" id="color-theme" href="themes/theme-1.css">
+</head>
+<body>
+  <main>
+    <header class="main__header">
+      <h1>
+        Calc
+      </h1>
+      <div class="main_theme">
+        <div class="theme_box">
+          theme
+        </div>
+        <div class="theme_numbers_ball">
+          <div class="theme_numbers">
+            <p>1</p>
+            <p>2</p>
+            <p>3</p>
+          </div>
+          <div class="ball-space">
+            <div class="ball ball_1" id="ball1"></div>
+            <div class="ball ball_2" id="ball2"></div>
+            <div class="ball ball_3" id="ball3"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <form id="form">
+      <div class="display__result_table" id="result__screen"></div>
+      <div class="main__table">
+        <button type="button" class="table__btns cursor_pointer" id="" value="7">7</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="8">8</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="9">9</button>
+        <button type="button" class="table__btns_2 cursor_pointer" id="del_btn" value="">DEL</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="4">4</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="5">5</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="6">6</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="+">+</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="1">1</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="2">2</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="3">3</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="-">-</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value=".">.</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="0">0</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="/">/</button>
+        <button type="button" class="table__btns cursor_pointer" id="" value="*">x</button>
+        <button type="reset" class="table__btns_2 reset_grid cursor_pointer" id="reset_button" >RESET</button>
+        <button type="button" class="equal_grid cursor_pointer" id="equal_button" value="=">=</button>
+      </div>
+    </form>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Leonel vilar</a>.
+    </div>
+  </main>
+  <script src="code.js"></script>
+</body>
+</html>

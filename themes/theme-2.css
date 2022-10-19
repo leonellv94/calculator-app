@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.main_theme{
+    color: black;
+}
+h1{
+    color: black;
+}
+.ball-space {
+    background: hsl(0, 5%, 81%);
+}
+
+/* .ball_1{
+    background: hsl(6, 63%, 50%);
+}
+.ball_2{
+    background: hsl(0, 5%, 81%);
+}
+.ball_3{
+    background: hsl(0, 5%, 81%);
+} */
+.display__result_table {
+    background: white;
+    color: black;
+}
+.main__table{
+    background: hsl(0, 5%, 81%);
+}
+.table__btns {
+    box-shadow: 0px 2px hsl(35, 11%, 61%);
+    color: black;
+    background-color: hsl(45, 7%, 89%);
+}
+.table__btns:active {
+    background-color: white;
+}
+.table__btns_2{
+    background-color: hsl(185, 42%, 37%);
+    color: white;
+    box-shadow: 0px 2px hsl(185, 58%, 25%);
+}
+.table__btns_2:active {
+    background-color: hsl(185, 33%, 49%);
+}
+.equal_grid{
+    box-shadow: 0px 2px hsl(25, 99%, 27%);
+    color: white;
+    background-color: hsl(25, 98%, 40%);
+}
+.equal_grid:active {
+    background-color: hsl(25, 76%, 52%);
+}
